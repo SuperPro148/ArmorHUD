@@ -1,29 +1,33 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "enchantviewer",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "EnchantViewer",
+  "description": "Easily and quickly see what enchantments you have on your tools, weapons and armor",
   "authors": [
-    "Me!"
+    "SuperPro148"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://superpro148.github.io/pages/mcmods.html",
+    "sources": "https://github.com/SuperPro148/enchantviewer",
+    "issues": "https://github.com/SuperPro148/enchantviewer/issues"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GPL-3.0-only",
+  "icon": "assets/enchantviewer/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
+    "client": [
+      "io.github.superpro148.enchantviewer.EnchantViewer"
+    ],
+    "modmenu": [
+      "io.github.superpro148.enchantviewer.config.ModMenuIntegration"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "enchantviewer.mixins.json"
   ],
 
   "depends": {
@@ -33,6 +37,5 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
