@@ -1,4 +1,4 @@
-package io.github.superpro148.enchantviewer.config;
+package io.github.superpro148.armorhud.config;
 
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
@@ -6,6 +6,6 @@ import com.terraformersmc.modmenu.api.ModMenuApi;
 public class ModMenuIntegration implements ModMenuApi {
     @Override
     public ConfigScreenFactory<?> getModConfigScreenFactory() {
-        return parent -> EnchantViewerConfig.createGui(parent);
+        return parent -> ArmorHUDConfig.createGui(parent);
     }
 }

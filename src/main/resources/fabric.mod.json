@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "enchantviewer",
+  "id": "armorhud",
   "version": "${version}",
 
-  "name": "EnchantViewer",
-  "description": "Easily and quickly see what enchantments you have on your tools, weapons and armor",
+  "name": "ArmorHUD",
+  "description": "A simple HUD to show what armor you're wearing",
   "authors": [
     "SuperPro148"
   ],
   "contact": {
     "homepage": "https://superpro148.github.io/pages/mcmods.html",
-    "sources": "https://github.com/SuperPro148/enchantviewer",
-    "issues": "https://github.com/SuperPro148/enchantviewer/issues"
+    "sources": "https://github.com/SuperPro148/armorhud",
+    "issues": "https://github.com/SuperPro148/armorhud/issues"
   },
 
   "license": "GPL-3.0-only",
-  "icon": "assets/enchantviewer/icon.png",
+  "icon": "assets/armorhud/icon.png",
 
   "environment": "client",
   "entrypoints": {
     "client": [
-      "io.github.superpro148.enchantviewer.EnchantViewer"
+      "io.github.superpro148.armorhud.ArmorHUD"
     ],
     "modmenu": [
-      "io.github.superpro148.enchantviewer.config.ModMenuIntegration"
+      "io.github.superpro148.armorhud.config.ModMenuIntegration"
     ]
   },
   "mixins": [
@@ -32,9 +32,11 @@
 
   "depends": {
     "fabricloader": ">=0.14.9",
-    "fabric-api": "*",
     "minecraft": "~1.19",
-    "java": ">=17"
+    "java": ">=17",
+    "yet-another-config-lib": "*",
+    "modmenu": "*",
+    "configlib148": "*"
   },
   "suggests": {
   }
