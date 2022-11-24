@@ -6,3 +6,6 @@ You can configure on which side of the screen the and how high the HUD is locate
 Requires YetAnotherConfigLib, Mod Menu and ConfigLib148 for configuration.
 
 (Please note that the name specifies Fabric to distinguish it from a Forge mod with the same name)
+
+Translation credits:
+- [LucyUwI](https://github.com/lucyuwi) (en_gb)

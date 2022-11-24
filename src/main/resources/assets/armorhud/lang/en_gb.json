@@ -3,8 +3,8 @@
   "tooltip.armorhud.show_armorhud": "Whether the ArmuorHUD is shown.",
   "option.armorhud.armorhud_side": "ArmourHUD side",
   "tooltip.armorhud.armorhud_side": "The side on which the ArmourHUD is placed.",
-  "enum.armorhud.armorhud_side_left": "Left",
-  "enum.armorhud.armorhud_side_right": "Right",
+  "enum.armorhud.armorhud_side.left": "Left",
+  "enum.armorhud.armorhud_side.right": "Right",
   "option.armorhud.armorhud_height": "ArmourHUD height",
   "tooltip.armorhud.armorhud_height": "The height at which the ArmourHUD is placed. 0 is at the top, 100 at the bottom."
 }

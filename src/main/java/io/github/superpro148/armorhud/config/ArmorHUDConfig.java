@@ -46,7 +46,7 @@ public class ArmorHUDConfig {
                                         () -> ARMORHUD_SIDE.getValue(),
                                         newValue -> ARMORHUD_SIDE.setValue(newValue)
                                 )
-                                .controller(option -> new EnumController<Side>(option, enumConst -> Text.translatable("enum.enchantviewer.armorhud_side_" + enumConst.toString().toLowerCase())))
+                                .controller(option -> new EnumController<Side>(option, enumConst -> Text.translatable("enum.armorhud.armorhud_side." + enumConst.toString().toLowerCase())))
                                 .build())
                         .option(Option.createBuilder(Integer.class)
                                 .name(Text.translatable("option.armorhud.armorhud_height"))
