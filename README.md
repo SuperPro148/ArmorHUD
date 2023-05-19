@@ -8,4 +8,4 @@ Requires YetAnotherConfigLib, Mod Menu and ConfigLib148 for configuration.
 (Please note that the name specifies Fabric to distinguish it from a Forge mod with the same name)
 
 Translation credits:
-- [LucyUwI](https://github.com/lucyuwi) (en_gb)
+- [AroLucy](https://github.com/arolucy) (en_gb)
